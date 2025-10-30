@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+
+    background-image: url("../SRC/IMG/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100dvw;
+    height: 100dvh;
+}
+
+header {
+    height: 9.375rem;
+    background-color: white;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+    height: 9.375rem;
+}
+
+header h1 {
+    font-size: 6rem;
+    font-weight: 100;
+
+    color: #244BC5;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 0rem 5.5rem;
+}
+
+body main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+
+    width: 51rem;
+    height: 24.875rem;
+}
+
+body main #cart {
+    height: 6.115625rem;
+}
+
+body main form .inputContainer {
+    height: 4rem;
+    width: 100%;
+
+    position: relative;
+}
+
+body main form .inputContainer img {
+    position: absolute;
+    height: 1.25rem;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    padding-left: 0.75rem;
+}
+
+body main form .inputContainer input {
+    height: 100%;
+    width: 100%;
+
+    background-color: transparent;
+
+    border: 2px solid #ffffff;
+    outline: none;
+    border-radius: 4px;
+    padding-left: 2.875rem;
+    padding-right: 0.75rem;
+    color: white;
+    font-size: 1.25rem;
+}
+
+body main form .inputContainer input::placeholder {
+    color: white;
+}
+
+body main form .inputContainer input::placeholder {
+    color: white;
+}
+
+body main form #botoes {
+    display: flex;
+    gap: 2rem;
+}
+
+body main form button {
+    
+    width: 18.75rem;
+    height: 2.8125rem;
+    background-color: white;
+
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #2148C0;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+body main form button:hover {
+    cursor: pointer;
+}

@@ -3,3 +3,103 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+
+    background-image: url("../SRC/IMG/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body #formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 18.75rem;
+    height: 24.875rem;
+}
+
+body #formContainer #cart {
+    height: 6.115625rem;
+}
+
+body #formContainer form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+body #formContainer form .inputContainer {
+    height: 2.8125rem;
+    width: 100%;
+
+    position: relative;
+}
+
+body #formContainer form .inputContainer img {
+    position: absolute;
+    height: 1.25rem;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    padding-left: 0.75rem;
+}
+
+body #formContainer form .inputContainer input {
+    height: 100%;
+    width: 100%;
+
+    background-color: transparent;
+
+    border: 1px solid #ffffff;
+    outline: none;
+    border-radius: 4px;
+    padding-left: 3.4375rem;
+    padding-right: 0.75rem;
+    color: white;
+    font-size: 0.875rem;
+}
+
+body #formContainer form .inputContainer input::placeholder {
+    color: white;
+}
+
+body #formContainer form .inputContainer input::placeholder {
+    color: white;
+}
+
+body #formContainer form button {
+    
+    width: 100%;
+    height: 2.8125rem;
+    background-color: white;
+
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: #2148C0;
+    font-size: 1rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+body #formContainer form a {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+    font-weight: 100;
+
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+}
