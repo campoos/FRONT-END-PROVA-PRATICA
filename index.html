@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prova Prática</title>
+    <title>SGA - Login</title>
     <link rel="stylesheet" href="./STYLES/style.css">
     <script src="./SCRIPTS/main.js" defer></script>
 </head>
 <body>
-    
+    <div id="formContainer">
+        <img src="./SRC/IMG/LOGIN/cart.png" alt="" id="cart">
+        <form action="">
+            <div id="inputUserContainer" class="inputContainer">
+                <img src="./SRC/IMG/LOGIN/user.png" alt="">
+                <input type="text" placeholder="USERNAME" id="usernameInput">
+            </div>
+            <div id="inputPasswordContainer" class="inputContainer">
+                <img src="./SRC/IMG/LOGIN/lock.png" alt="">
+                <input type="password" placeholder="PASSWORD" id="passwordInput">
+            </div>
+            <button id="loginButton" type="button" onclick="window.location.href = '/PAGES/home.html'">LOGIN</button>
+            <a href="">Forgot password?</a>
+        </form>
+    </div>
 </body>
 </html>

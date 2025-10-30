@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGA - Home</title>
+    <link rel="stylesheet" href="../STYLES/home.css">
+    <script src="../SCRIPTS/home.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../SRC/IMG/logo.png" alt="">
+        <h1>LionBook</h1>
+    </header>
+    <main>
+        <div id="filtros">
+            <button class="filtro" id="cadastroButton" onclick="window.location.href = '/PAGES/cadastro.html'">NOVO LIVRO</button>
+            <button class="filtro" id="estoqueButton" onclick="window.location.href = '/PAGES/estoque.html'">ESTOQUE</button>
+        </div>
+        <table id="tabela">
+            <thead id="tabelaHead">
+                <tr>
+                    <td>ID</td>
+                    <td>TÍTULO</td>
+                    <td>AÇÃO</td>
+                </tr>
+            </thead>
+            <tbody id="tabelaBody">
+                <tr>
+                    <td>120</td>
+                    <td>A Volta ao Mundo em 80 Dias</td>
+                    <td id="botoes">
+                        <img src="../SRC/IMG/HOME/editar.png" alt="" class="editar">
+                        <img src="../SRC/IMG/HOME/excluir.png" alt="" class="excluir">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

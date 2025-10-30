@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGA - Cadastro</title>
+    <link rel="stylesheet" href="../STYLES/cadastro.css">
+    <script src="../SCRIPTS/cadastro.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="../SRC/IMG/logo.png" alt="">
+        <h1>LionBook - CADASTRO</h1>
+    </header>
+    <main>
+        <form action="">
+            <div id="inputTituloContainer" class="inputContainer">
+                <input type="text" placeholder="TÍTULO">
+            </div>
+            <div id="inputQuantidadeContainer" class="inputContainer">
+                <input type="number" placeholder="QUANTIDADE">
+            </div>
+            <div id="inputISBNContainer" class="inputContainer">
+                <input type="number" placeholder="ISBN">
+            </div>
+            <div id="inputDataContainer" class="inputContainer">
+                <input type="date" placeholder="DATA DE PUBLICAÇÃO">
+            </div>
+            <div id="botoes">
+                <button id="cadastroButton" type="button" class="botao">CADASTRAR</button>
+                <button id="cancelarButton" type="button" class="botao" onclick="window.location.href = '/PAGES/home.html'">CANCELAR</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
